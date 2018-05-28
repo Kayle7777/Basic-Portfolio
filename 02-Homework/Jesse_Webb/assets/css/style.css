@@ -31,7 +31,20 @@ div button:after {
 
 
 header {
-  border-bottom: 2px inset #bfbfbf;
+  border-bottom: 2px inset lightgrey;
+}
+
+#bodyFrame {
+  padding: 0px 30px 30px 30px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 960px;
+  margin-top: 60px;
+  border: 1px solid lightgrey;
+}
+
+ #bodyFrame p {
+border-top: 3px solid lightgrey;
 }
 
 #header {
@@ -39,25 +52,13 @@ header {
   margin:auto;
 }
 
-#bodyHeader {
-  font-family: Calibri;
-  display: flex;
-  color: grey;
-  max-width: 960px;
-  margin: auto;
-}
 
-#body {
-    max-width: 960px;
-    max-width: 960px;
-    margin: auto;
-}
 
 footer {
   width:100%;
   position: absolute;
   bottom:0;
-  border-top: 5px inset cyan;
+  border-top: 5px solid #4DA9A6;
   text-align: center;
   background-color: #bfbfbf;
   padding: 11px;
