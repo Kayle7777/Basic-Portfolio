@@ -38,8 +38,15 @@ header {
   border-bottom: 2px inset #bfbfbf;
 }
 
+#body {
+  padding-top:60px;
+  padding-bottom:60px;   /* Height of the footer */
+}
 
 footer {
+  width: 960px;
+  position: absolute;
+  bottom:0;
   border-top: 5px inset cyan;
   text-align: center;
   background-color: #bfbfbf;
