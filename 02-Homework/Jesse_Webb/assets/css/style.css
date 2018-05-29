@@ -25,17 +25,6 @@ div button {
   text-align: center;
 }
 
-div button:not(:last-child) {
-  border-right: none;
-}
-
-div button:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
 header {
   border-bottom: 2px inset #cccccc;
   background-color: #ffffff;
