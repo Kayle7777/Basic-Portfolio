@@ -12,7 +12,7 @@ body {
   background-image: url("../images/what-the-hex.png");
 }
 
-div button {
+.headerButton {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 1.25em;
   border: 1px solid white; /* border */
@@ -31,19 +31,20 @@ header {
 }
 
 #bodyFrame {
-  padding: 0px 30px 30px 30px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  /* padding: 0px 30px 30px 30px; */
+  /* -moz-box-sizing: border-box; */
+  /* box-sizing: border-box; */
   max-width: 960px;
   margin-top: 60px;
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
   background-color: #ffffff;
 }
 
- #pBorder{
+#pBorder {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    border-top: 3px solid lightgrey;
 }
+
 
 #bodyFrame h2 {
   font-family:'Georgia', Times, Times New Roman, serif;
@@ -55,12 +56,25 @@ header {
   margin:auto;
 }
 
+#contactPics button {
+  height:200px;
+  width:200px;
+  border-radius:12px;
+}
+
+#contactPics button div {
+  margin-top: 150px;
+  color: white;
+  background-color: #4aaaa5;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 footer {
   width:100%;
-  position: absolute;
+  position: fixed;
+  padding: 11px;
   bottom:0;
   border-top: 5px solid #4aaaa5;
   text-align: center;
   background-color: #bfbfbf;
-  padding: 11px;
 }
