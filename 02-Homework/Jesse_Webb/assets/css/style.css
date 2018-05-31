@@ -61,10 +61,12 @@ header {
 
 input[type="text"] {
   width: 100%;
+  height: 35px;
 }
 
-input[name="message"] {
+textarea[name="message"] {
   height: 220px;
+  width: 100%;
 }
 
 #header {
