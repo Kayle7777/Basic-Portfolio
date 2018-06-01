@@ -30,6 +30,11 @@ header {
   background-color: #ffffff;
 }
 
+#header {
+  max-width:960px;
+  margin:auto;
+}
+
 #bodyFrame {
   max-width: 960px;
   margin-top: 30px;
@@ -67,11 +72,6 @@ input[type="text"] {
 textarea[name="message"] {
   height: 220px;
   width: 100%;
-}
-
-#header {
-  max-width:960px;
-  margin:auto;
 }
 
 .contactPics button {
