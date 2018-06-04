@@ -90,7 +90,7 @@ textarea[name="message"] {
 
 footer {
   width:100%;
-  position: fixed;
+  position: relative;
   /* padding: 11px; */
   bottom:0;
   border-top: 5px solid #4aaaa5;
