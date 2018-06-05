@@ -6,6 +6,10 @@
   color: white;
 }
 
+#testID {
+  visibility:hidden;
+}
+
 body {
   background-color: #ffffff;
   background-size: auto, cover;
