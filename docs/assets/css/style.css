@@ -98,6 +98,7 @@ footer {
   position: relative;
   padding: 11px;
   bottom:0;
+  left:0;
   border-top: 5px solid #4aaaa5;
   text-align: center;
   background-color: #bfbfbf;
