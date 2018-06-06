@@ -78,13 +78,16 @@ textarea[name="message"] {
   width: 100%;
 }
 
+#submitButton:hover {
+  background-color: orange;
+}
+
 .contactPics button {
   height:200px;
   width:200px;
   border-radius:12px;
   margin-bottom: 50px;
 }
-
 
 .contactPics button p {
   margin-top: 150px;
