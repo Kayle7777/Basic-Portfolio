@@ -95,7 +95,7 @@ textarea[name="message"] {
 
 footer {
   width:100%;
-  position: relative;
+  position: fixed;
   padding: 11px;
   bottom:0;
   left:0;
