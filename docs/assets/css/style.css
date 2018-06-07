@@ -79,52 +79,50 @@ header {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.bodyFrame form {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .aboutMeImage {
   position:relative;
   float:left;
   margin-right: 20px;
 }
 
-#bodyFrame form {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
 
 input[type="text"] {
-  width: 100%;
+  width: 99%;
   height: 35px;
 }
 
 textarea[name="message"] {
   height: 220px;
-  width: 100%;
+  width: 99%;
 }
 
 #submitButton:hover {
   background-color: orange;
 }
 
-.contactPics {
+.portfolioPics {
   float:left;
   margin:auto;
   overflow:auto;
   border: 20px solid white
 }
 
-.contactPics button {
+.portfolioPics button {
   height:200px;
   width:200px;
   border-radius:12px;
-  margin-bottom: 50px;
 }
 
-.contactPics button p {
+.portfolioPics button div {
   margin-top: 150px;
-  color: white !important;
+  color: white;
   background-color: #4aaaa5;
   width: 100%;
 }
-
-/* I give up with this */
 
 footer {
   width:100%;
