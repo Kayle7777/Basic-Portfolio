@@ -77,10 +77,6 @@ header {
 
 .bodyFrame p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  display: inline-block;
-  color: grey;
-  font-size: 1.25em;
-  float:left;
 }
 
 .aboutMeImage {
